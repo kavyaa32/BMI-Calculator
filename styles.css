@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content:center;
+    font-family:sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin-top:50px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 20px #f5fffa;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+h1{
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.calculator label {
+    border:none;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #222;
+}
+
+.calculator input {
+    border:none;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    width: 100% - 20px;
+    boder:1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: #7a007a;
+    color:#fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    border:none;
+    background-color: #520052;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#bmi-value {
+    font-weight: bold;
+}
+
+#bmi-status {
+    margin-top: 40px;
+}
+   
